@@ -76,9 +76,6 @@ section{
   color: var(--black);
 }
 
-.header .logo i{
-  color: var(--primary-color);
-}
 
 .header .navbar a{
   font-size: 1.7rem;
@@ -131,9 +128,8 @@ section{
 .home .content h3{
   font-size: 6rem;
   text-transform: uppercase;
-  color: var(--white);
-  padding-bottom: 1.5rem;
-
+  color: white;
+  margin-top: 200px;
 }
 
 .home .content h3 span{
@@ -141,9 +137,6 @@ section{
   color: var(--primary-color);
 }
 
-/* end */
-
-/* banner */
 
 
 
@@ -179,10 +172,6 @@ section{
   line-height: 1.8;
 }
 
-/* end */
-
-/* package */
-
 
 
 .gallery .box-container{
@@ -198,6 +187,12 @@ section{
   border-radius: 1rem;
   overflow: hidden;
 }
+
+.gallery .box-container .spot{
+ height: 90px;
+ width: 90px;
+}
+
 
 .gallery .box-container .box img{
   height: 100%;
@@ -231,9 +226,6 @@ section{
   padding: 1rem 0;
 }
 
-.footer .box-container .box h3 i{
-  padding-right: .5rem;
-}
 
 .footer .box-container .box p{
   font-size: 1.4rem;
@@ -299,17 +291,6 @@ section{
   color: var(--primary-color);
 }
 
-/* end */
-
-
-
-
-
-
-
-
-
-/* media query */
 
 @media(max-width:991px){
 
@@ -347,25 +328,6 @@ section{
     font-size: 2rem;
   }
 
-  .package .box-container .box{
-    flex-direction: column;
-  }
-
-  .package .box-container .box .image,
-  .package .box-container .box .content,
-  .package .box-container .box .price{
-    width: 100%;
-  }
-
-  .package .box-container .box .image img{
-    border-radius: 1rem 1rem 0 0;
-  }
-
-  .package .box-container .box .price{
-    border-radius: 0 0 1rem 1rem;
-  }
-
-}
 
 
 @media(max-width:450px){
